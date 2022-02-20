@@ -1,0 +1,42 @@
+
+
+
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(85, 83, 83);
+}
+h1{
+    font-size: 3rem;
+}
+.container{
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(183, 180, 201);
+    padding: 2rem 2rem 4rem;
+    border-radius: 1rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.cta-button{
+    border: 3px solid black;
+    padding: 1rem 2rem;
+    /* font-family: 'Merriweather Sans', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 0.5rem;
+
+    font-size: 2rem;
+}
+.mouse-data{
+    margin: 2rem;
+    font-size:2rem;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
